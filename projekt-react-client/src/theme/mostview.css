@@ -1,0 +1,13 @@
+.MostView-view{
+    display: flex;
+    margin: 200px auto 0;
+    width: 65%;
+
+}
+
+
+.subject-view{
+    /* display: inline-block; */
+    margin: auto;
+    padding: 10px;
+}

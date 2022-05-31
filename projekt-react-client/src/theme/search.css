@@ -1,0 +1,35 @@
+.Search-body{
+    font-size: 100%;
+    /* max-width: 1000px; */
+    margin: auto;
+    /* align-items: center; */
+}
+
+
+.Search-bar{
+    margin:0 auto;
+    width:540px;
+    border-radius: 30px;
+    border:2px solid #dcdcdc;
+}
+.Search-bar-text{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    margin: 0 20px 0 20px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.Search-bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+}
+.Search-bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
