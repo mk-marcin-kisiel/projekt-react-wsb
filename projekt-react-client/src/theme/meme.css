@@ -1,0 +1,68 @@
+.meme-body{
+    max-width: 600px;
+    margin: auto;
+    align-items: center;
+    margin: 25px auto;
+    padding: 25px 25px;
+    min-height: 300px;
+  }
+
+.meme-view{
+color: #242526;
+background: #242526;
+
+box-shadow: 
+0px 2px 10px rgba(0,0,0,0.2), 
+0px 10px 20px rgba(0,0,0,0.3), 
+0px 30px 60px 1px rgba(0,0,0,0.5);
+border-radius: 8px;
+}
+
+.meme-title {
+font-size: 0.7em;
+padding: 0px;
+color: white
+}
+.meme-creator {
+    padding: 0px;
+    color: white;
+}
+
+.meme-body img{
+    margin: 0;
+    width: 100%;
+    /* max-height: auto; */
+
+    padding: 0;
+}
+
+.meme-body video{
+    margin: auto;
+  width: 100%;
+  padding: auto;
+}
+.meme-rate{
+    display: flex;
+    align-items: center;
+}
+.meme-rate-btn {
+    background: none;
+    text-decoration: none;
+    color: #ffdb61;
+    /* box-shadow: 0px 0px 0px 2px white; */
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 10px 2em;
+    transition: 0.5s;
+    flex-grow: 1;
+    font-size: 1.2em;
+  }
+  .meme-rate-btn-selected{
+    background: #ffdb61;
+    color: #242526;
+  }
+  .meme-rate-btn:hover {
+    background: white;
+    color: #242526;
+    transition: 0.5s;
+  }
